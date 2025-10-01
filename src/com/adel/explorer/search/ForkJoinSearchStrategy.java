@@ -32,7 +32,6 @@ public class ForkJoinSearchStrategy implements SearchStrategy {
                             String line = lines.get(j);
                             if (line.contains(searchWord)) {
                                 System.out.printf("%s Line %d: %s\n", file.getName(), j + 1, line);
-                                break;
                             }
                         }
                     } catch (IOException e) {

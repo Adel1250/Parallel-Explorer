@@ -14,9 +14,8 @@ It includes:
 ## 🚀 How It Works
 
 1. Place `.txt` files inside the target folder (or use the generator to create them).
-2. Choose a search strategy (`SequentialSearchStrategy`, `CompletableFutureSearchStrategy`, or `ForkJoinSearchStrategy`).
-3. Run the search with the target keyword.
-4. The program prints the file(s) and line(s) containing the keyword.
+2. Automatically runs search strategies (`SequentialSearchStrategy`, `CompletableFutureSearchStrategy`, or `ForkJoinSearchStrategy`).
+3. The program prints the file and line containing the keyword.
 
 ---
 

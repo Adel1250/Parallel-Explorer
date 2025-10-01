@@ -20,7 +20,6 @@ public class SequentialSearchStrategy implements SearchStrategy {
                     String line = lines.get(i);
                     if (line.contains(searchWord)) {
                         System.out.printf("%s Line %d: %s\n", file.getName(), i + 1, line);
-                        break;
                     }
                 }
             } catch (IOException e) {
